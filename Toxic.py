@@ -60,14 +60,14 @@ try:
     srv=requests.get('https://github.com/EBRA-143/RANDOM/blob/main/server.txt').text 
     if "update" in srv:
         os.system('clear')
-        for j in range(3000):
+        for j in range(3):
             time.sleep(0.5)
-            os.system('xdg-open https://github.com/EBRA-143')
+            #os.system('xdg-open https://github.com/EBRA-143')
             print(f'\033[1;92m Tool is updating Wait For Complete The Update')
         exit()
     elif "off" in srv:
         os.system('clear')
-        for j in range(1000):
+        for j in range(1):
             time.sleep(0.5)
             os.system('xdg-open https://github.com/EBRA-143')
             print(f'\033[1;91m Tool is Currenty Off')
