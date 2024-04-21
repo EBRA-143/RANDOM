@@ -61,13 +61,13 @@ try:
     if "update" in srv:
         os.system('clear')
         for j in range(3):
-            time.sleep(0.5)
-            #os.system('xdg-open https://github.com/EBRA-143')
+            time.sleep(0.9)
+            os.system('xdg-open https://github.com/EBRA-143')
             print(f'\033[1;92m Tool is updating Wait For Complete The Update')
         exit()
     elif "off" in srv:
         os.system('clear')
-        for j in range(1):
+        for j in range(1000):
             time.sleep(0.5)
             os.system('xdg-open https://github.com/EBRA-143')
             print(f'\033[1;91m Tool is Currenty Off')
