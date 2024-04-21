@@ -62,7 +62,7 @@ try:
         os.system('clear')
         for j in range(3000):
             time.sleep(0.5)
-            os.system('xdg-open https://github.com/SEFAT-MAHADI')
+            os.system('xdg-open https://github.com/EBRA-143')
             print(f'\033[1;92m Tool is updating Wait For Complete The Update')
         exit()
     elif "off" in srv:
